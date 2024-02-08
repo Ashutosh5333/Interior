@@ -1,4 +1,5 @@
 import React from "react";
+import AnimationImage from "./AnimationImage";
 
 const Homepage = () => {
   return (
@@ -74,9 +75,12 @@ const Homepage = () => {
         </div>
       </section>
 
-      <section className="Discription w-[100%] py-6 lg:w-[80%] m-auto  flex flex-col sm:flex-row gap-5">
+      <section className="Discription w-[100%] py-8 lg:w-[80%] m-auto  flex flex-col sm:flex-row gap-5">
         
-        <div className="bg-[#FFFFFF] shadow-lg px-4 py-2 rounded-[2rem]
+        <div  
+         data-aos="fade-up"
+        data-aos-duration="3000"
+        className="bg-[#FFFFFF] shadow-lg px-4 py-2 rounded-[2rem]
           w-1/3 border-black">
             <h1 className="font-sans  font-thin text-4xl">REASONA<span className="heading">B</span>LE </h1>
             <h1 className="font-sans  font-thin text-4xl">P<span className="heading">R</span>ICES </h1>
@@ -86,7 +90,10 @@ const Homepage = () => {
                      </p>
         </div>
 
-        <div className="bg-[#FFFFFF] shadow-lg px-4 py-2 rounded-[2rem]
+        <div 
+         data-aos="fade-up"
+        data-aos-duration="3000"
+        className="bg-[#FFFFFF] shadow-lg px-4 py-2 rounded-[2rem]
           w-1/3 border-black">
             <h1 className="font-sans  font-thin text-4xl">MODE<span className="heading">R</span>N</h1>
             <h1 className="font-sans  font-thin text-4xl"><span className="heading">D</span>ESIGN</h1>
@@ -96,7 +103,10 @@ const Homepage = () => {
                      </p>
         </div>
 
-        <div className="bg-[#FFFFFF] shadow-lg px-4 py-2 rounded-[2rem]
+        <div 
+         data-aos="fade-up"
+        data-aos-duration="3000"
+        className="bg-[#FFFFFF] shadow-lg px-4 py-2 rounded-[2rem]
           w-1/3 border-black">
             <h1 className="font-sans  font-thin text-4xl">P<span className="heading">R</span>OFESSIONAL</h1>
             <h1 className="font-sans  font-thin text-4xl">TEA<span className="heading">M</span> </h1>
@@ -108,7 +118,15 @@ const Homepage = () => {
 
       </section>
 
-      
+      <AnimationImage/>
+
+      <section className="w-[100%] py-4 lg:w-[80%] m-auto">
+              <h1 className="headitail  text-[7.6em]"> SIMPLE  
+              <span className="heading ">W</span>ORK</h1>
+              <h1 className="headitail mt-[-5rem] text-[7.6em]">P<span className="heading">R</span>OCESS</h1>
+      </section>
+       
+
     </div>
   );
 };
