@@ -27,3 +27,25 @@ export const Interier = [
     },
   ];
   
+  export const faqData = [
+    {
+      question: "DOES YOUR FIRM HAVE A PROJECT MINIMUM ? ",
+      answer:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa temporibus quaerat a corrupti quibusdam iure facere itaque expedita facilis. Alias veniam illo sit maxime praesentium officiis iure officia libero enim..",
+    },
+    {
+      question: "HOW MUCH IT WILL BE COST",
+      answer:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa temporibus quaerat a corrupti quibusdam iure facere itaque expedita facilis. Alias veniam illo sit maxime praesentium officiis iure officia libero enim..",
+    },
+    {
+      question: "I DON'T KNOW WHAT I WANT ",
+      answer:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa temporibus quaerat a corrupti quibusdam iure facere itaque expedita facilis. Alias veniam illo sit maxime praesentium officiis iure officia libero enim..",
+     },
+    {
+      question: "DOES YOUR FIRM HAVE A PROJECT MAXIMUM ?",
+      answer:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa temporibus quaerat a corrupti quibusdam iure facere itaque expedita facilis. Alias veniam illo sit maxime praesentium officiis iure officia libero enim..",
+   },
+  ];
