@@ -16,8 +16,7 @@ const AnimationImage: React.FC = () => {
 
   return (
     <div
-    
-      className=' py-20 flex flex-row gap-10 ed-800 w-[100%] lg:w-[80%] m-auto
+      className='py-2 sm:py-20 px-4 flex flex-col sm:flex-row gap-10  w-[100%] lg:w-[80%] m-auto
        '
     >
       <div

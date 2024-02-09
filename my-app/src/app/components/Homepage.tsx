@@ -1,9 +1,12 @@
 import React from "react";
 import AnimationImage from "./AnimationImage";
+import InventorySwiper from "./InventorySwiper";
 
 const Homepage = () => {
+  
   return (
     <div className="relative top-20 w-full m-auto  mx-auto">
+
       <section className="Interier-container w-[100%] px-2 lg:w-[80%] m-auto py-1  border-yellow-800">
         <div className="flex flex-col-reverse sm:flex-row  gap-10   px-2 border-red-600">
           <div className="w-full  sm:w-[30%] p-2 m-auto border-yellow-400 z-20">
@@ -75,13 +78,13 @@ const Homepage = () => {
         </div>
       </section>
 
-      <section className="Discription w-[100%] py-8 lg:w-[80%] m-auto  flex flex-col sm:flex-row gap-5">
+      <section className="Discription w-[100%] py-8 px-2 lg:w-[80%] m-auto  flex flex-col sm:flex-row gap-5">
         
         <div  
          data-aos="fade-up"
         data-aos-duration="3000"
         className="bg-[#FFFFFF] shadow-lg px-4 py-2 rounded-[2rem]
-          w-1/3 border-black">
+           w-[100%]  sm:w-1/3 border-black">
             <h1 className="font-sans  font-thin text-4xl">REASONA<span className="heading">B</span>LE </h1>
             <h1 className="font-sans  font-thin text-4xl">P<span className="heading">R</span>ICES </h1>
             <p className="text-sm py-2 px-1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -94,7 +97,7 @@ const Homepage = () => {
          data-aos="fade-up"
         data-aos-duration="3000"
         className="bg-[#FFFFFF] shadow-lg px-4 py-2 rounded-[2rem]
-          w-1/3 border-black">
+        w-[100%]  sm:w-1/3 border-black">
             <h1 className="font-sans  font-thin text-4xl">MODE<span className="heading">R</span>N</h1>
             <h1 className="font-sans  font-thin text-4xl"><span className="heading">D</span>ESIGN</h1>
             <p className="text-sm py-2 px-1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -107,7 +110,7 @@ const Homepage = () => {
          data-aos="fade-up"
         data-aos-duration="3000"
         className="bg-[#FFFFFF] shadow-lg px-4 py-2 rounded-[2rem]
-          w-1/3 border-black">
+        w-[100%]  sm:w-1/3 border-black">
             <h1 className="font-sans  font-thin text-4xl">P<span className="heading">R</span>OFESSIONAL</h1>
             <h1 className="font-sans  font-thin text-4xl">TEA<span className="heading">M</span> </h1>
             <p className="text-sm py-2 px-1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -120,12 +123,64 @@ const Homepage = () => {
 
       <AnimationImage/>
 
-      <section className="w-[100%] py-4 lg:w-[80%] m-auto">
-              <h1 className="headitail  text-[7.6em]"> SIMPLE  
+      <section className="w-[100%] py-4 px-4 sm:px-2 lg:w-[80%] m-auto">
+              <h1 className="headitail text-[3em] sm:text-[7.6em]"> SIMPLE  
               <span className="heading ">W</span>ORK</h1>
-              <h1 className="headitail mt-[-5rem] text-[7.6em]">P<span className="heading">R</span>OCESS</h1>
+              <h1 className="headitail mt-[-2rem] sm:mt-[-5rem] text-[3em] sm:text-[7.6em]">P<span className="heading">R</span>OCESS</h1>
+      </section>
+
+      <section className="Discription w-[100%] py-8 px-2 lg:w-[80%] m-auto  flex flex-col sm:flex-row gap-5">
+        
+        <div  
+         data-aos="fade-up"
+        data-aos-duration="3000"
+        className="bg-[#FFFFFF] shadow-lg px-4 py-2 rounded-[2rem]
+           w-[100%]  sm:w-1/3 border-black">
+            <h1 className="font-sans  font-thin text-4xl">REASONA<span className="heading">B</span>LE </h1>
+            <h1 className="font-sans  font-thin text-4xl">P<span className="heading">R</span>ICES </h1>
+            <p className="text-sm py-2 px-1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Magnam nam iste fugit est consectetur quia recusandae. 
+                    Asperiores voluptates, accusamus vitae impedit eum eligendi ut
+                     </p>
+        </div>
+
+        <div 
+         data-aos="fade-up"
+        data-aos-duration="3000"
+        className="bg-[#FFFFFF] shadow-lg px-4 py-2 rounded-[2rem]
+        w-[100%]  sm:w-1/3 border-black">
+            <h1 className="font-sans  font-thin text-4xl">MODE<span className="heading">R</span>N</h1>
+            <h1 className="font-sans  font-thin text-4xl"><span className="heading">D</span>ESIGN</h1>
+            <p className="text-sm py-2 px-1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Magnam nam iste fugit est consectetur quia recusandae. 
+                    Asperiores voluptates, accusamus vitae impedit eum eligendi ut
+                     </p>
+        </div>
+
+        <div 
+         data-aos="fade-up"
+        data-aos-duration="3000"
+        className="bg-[#FFFFFF] shadow-lg px-4 py-2 rounded-[2rem]
+        w-[100%]  sm:w-1/3 border-black">
+            <h1 className="font-sans  font-thin text-4xl">P<span className="heading">R</span>OFESSIONAL</h1>
+            <h1 className="font-sans  font-thin text-4xl">TEA<span className="heading">M</span> </h1>
+            <p className="text-sm py-2 px-1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Magnam nam iste fugit est consectetur quia recusandae. 
+                    Asperiores voluptates, accusamus vitae impedit eum eligendi ut
+                     </p>
+        </div>
+
       </section>
        
+      <section className="w-[100%] text-center py-4 px-4 sm:px-2 lg:w-[80%] m-auto">
+              <h1 className="headitail text-[3em] sm:text-[7.6em]"> EXPLOR  
+              <span className="heading ">E</span></h1>
+              <h1 className="headitail mt-[-2rem] sm:mt-[-5rem] text-[3em] sm:text-[7.6em]">OUR</h1>
+    
+              <h1 className="headitail mt-[-2rem] sm:mt-[-5rem] text-[3em] sm:text-[7.6em]"><span className="heading">D</span>ESIGN</h1>
+      </section>
+
+       <InventorySwiper/>
 
     </div>
   );
