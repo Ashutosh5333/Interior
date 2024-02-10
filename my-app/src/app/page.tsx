@@ -4,10 +4,10 @@ import Homepage from "./components/Homepage";
 
 export default function Home() {
   return (
-    <main className="bg-[#FFFFFF]">
+    <main className="">
             <Navbar/>
             <Homepage/>
-            {/* <Homepage/> */}
+         
     </main>
   );
 }

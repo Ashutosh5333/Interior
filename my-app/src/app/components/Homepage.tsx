@@ -3,6 +3,7 @@ import AnimationImage from "./AnimationImage";
 import InventorySwiper from "./InventorySwiper";
 import Faq from "./Landingpage/Faq";
 import Latestblog from "./Landingpage/Latestblog";
+import Footer from "./Landingpage/Footer";
 
 const Homepage = () => {
   return (
@@ -216,16 +217,16 @@ const Homepage = () => {
       </section>
 
       <section className="w-[100%] text-center py-4 px-4 sm:px-2 lg:w-[80%] m-auto">
-        <h1 className="headitail text-[3em] sm:text-[7.6em]">
+        <h1 className="headitail text-[4em] sm:text-[7.6em]">
           {" "}
           EXPLOR
           <span className="heading ">E</span>
         </h1>
-        <h1 className="headitail mt-[-2rem] sm:mt-[-5rem] text-[3em] sm:text-[7.6em]">
+        <h1 className="headitail mt-[-2rem] sm:mt-[-5rem] text-[4em] sm:text-[7.6em]">
           OUR
         </h1>
 
-        <h1 className="headitail mt-[-2rem] sm:mt-[-5rem] text-[3em] sm:text-[7.6em]">
+        <h1 className="headitail mt-[-2rem] sm:mt-[-5rem] text-[4em] sm:text-[7.6em]">
           <span className="heading">D</span>ESIGN
         </h1>
       </section>
@@ -236,7 +237,7 @@ const Homepage = () => {
 
        <Latestblog/>
        
-
+        <Footer/>
     </div>
   );
 };

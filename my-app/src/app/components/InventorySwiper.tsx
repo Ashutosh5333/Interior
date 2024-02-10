@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { Interier } from "../../../context/index";
+import { MoveLeft, MoveRight } from "lucide-react";
 
 const InventorySwiper = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -28,27 +29,32 @@ const InventorySwiper = () => {
           key={el.id}
         >
        
-          <div className="w-full sm:w-[70%] lg:w-[70%] m-auto py-2 px-4 bg-cover border-red-600">
+          <div className="w-full sm:w-[70%] lg:w-[60%] m-auto py-2 px-4 bg-cover border-red-600">
             <div className="aspect-w-4 aspect-h-3">
               <img
                 src={el.Image}
-                className="object-cover h-[300px] sm:h-[300px] lg:h-[500px] w-[100%] rounded-[2rem]"
+                className="object-cover h-[300px] sm:h-[300px] lg:h-[400px] w-[100%] rounded-[2rem]"
                 alt={`image_${el.id}`}
               />
             </div>
           </div>
 
-          <div className="w-full sm:w-[30%]  border-green-600 flex flex-col justify-end">
+          <div className="w-full sm:w-[40%]  border-green-600 flex flex-col justify-end">
             <div></div>
 
             <div>
-              <div className="relative px-4 sm:px-2 flex-grow">
+              <div className="relative px-4 sm:px-4 flex-grow">
                 <h2 className="text-4xl font-normal">{el.Title}</h2>
                 <p className="text-sm py-2">{el.description}</p>
               </div>
               <div className="px-8 py-4 border-yellow-600 flex justify-between">
-                <button onClick={handlePrev}>left</button>
-                <button onClick={handleNext}>Right</button>
+                <button className="w-10 h-10" onClick={handlePrev}>
+                <MoveLeft className="w-10 h-10" />
+                </button>
+                <button onClick={handleNext}>
+                < MoveRight className="w-10 h-10" />
+
+                </button>
               </div>
             </div>
           </div>

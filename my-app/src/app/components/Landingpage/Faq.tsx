@@ -12,19 +12,23 @@ const Faq = () => {
 
   return (
     <div className=" w-[100%] lg:w-[80%]  min-h-screen m-auto border-green-600">
-      <h1 className="headitail text-[3em] sm:text-[7.6em]">
+    
+     <div className="px-4  sm:text-start ">
+     <h1 className="headitail text-[4em] sm:text-[7.6em]">
         {" "}
         COM
         <span className="heading ">M</span>ON
       </h1>
-      <h1 className="headitail mt-[-2rem] sm:mt-[-5rem] text-[3em] sm:text-[7.6em]">
+      <h1 className="headitail mt-[-2rem] sm:mt-[-5rem] text-[4em] sm:text-[7.6em]">
         Q<span className="heading">U</span>ESTION
       </h1>
+     </div>
+     
 
-      <section className="Faq-conatiner py-4 w-[100%] flex flex-col sm:flex-row">
+      <section className="Faq-conatiner px-4 sm:px-2 py-4 w-[100%] flex flex-col sm:flex-row">
         <div className="w-1/2"></div>
 
-        <div className="w-[80%]  border-red-800">
+        <div className=" sm:w-[80%]  border-red-800">
           <div className="mx-auto   space-y-4 ">
             {faqData.map((faq, index) => (
               <div

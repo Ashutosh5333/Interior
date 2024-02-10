@@ -12,7 +12,6 @@ const AnimationImage: React.FC = () => {
         AOS.init();
     },[])
   
-    
 
   return (
     <div

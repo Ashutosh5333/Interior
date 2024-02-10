@@ -2,21 +2,29 @@ import Image from "next/image";
 import React from "react";
 
 const Latestblog = () => {
+  
   return (
     <div className=" w-[100%] lg:w-[80%]   m-auto border-green-600">
-      <h1 className="headitail text-[3em] sm:text-[7.6em]">
+
+      <div className="px-4">
+      <h1 className="headitail text-[4em] sm:text-[7.6em]">
         {" "}
         OUR LAT
         <span className="heading ">E</span>ST
       </h1>
-      <h1 className="headitail mt-[-2rem] sm:mt-[-5rem] text-[3em] sm:text-[7.6em]">
+      <h1 className="headitail mt-[-2rem] sm:mt-[-5rem] text-[4em] sm:text-[7.6em]">
         <span className="heading">B</span>LOGS
       </h1>
+      </div>
+     
 
       <section className=" w-[100%] py-6 flex flex-col sm:flex-row gap-10 border-red-700">
        
-        <div className="w-1/2 shadow-lg  hover:blur-sm px-4 py-4 rounded-large border-green-600 relative">
+        <div 
+        data-aos="fade-up"
+        className=" sm:w-1/2 shadow-lg  hover:blur-sm px-4 py-4 rounded-large border-green-600 relative">
           <Image
+          data-aos="zoom-in"
             width={500}
             height={100}
             alt="Image"
@@ -33,8 +41,11 @@ const Latestblog = () => {
           </h1>
         </div>
 
-        <div className="w-1/2 shadow-lg px-4 py-4 hover:blur-sm rounded-large border-green-600">
+        <div 
+        data-aos="fade-up"
+        className=" sm:w-1/2 shadow-lg px-4 py-4 hover:blur-sm rounded-large border-green-600">
           <Image
+          data-aos="zoom-in"
             width={400}
             height={100}
             alt="Image"
@@ -52,6 +63,7 @@ const Latestblog = () => {
         </div>
 
       </section>
+
     </div>
   );
 };
