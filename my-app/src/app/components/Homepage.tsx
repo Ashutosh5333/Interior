@@ -6,6 +6,7 @@ import Latestblog from "./Landingpage/Latestblog";
 import Footer from "./Landingpage/Footer";
 
 const Homepage = () => {
+  
   return (
     <div className="relative top-20 w-full m-auto  mx-auto">
       <section className="Interier-container w-[100%] px-2 lg:w-[80%] m-auto py-1  border-yellow-800">
@@ -237,7 +238,7 @@ const Homepage = () => {
 
        <Latestblog/>
        
-        <Footer/>
+        
     </div>
   );
 };

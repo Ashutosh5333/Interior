@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap'); */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,3 +20,58 @@
 .heading{
     font-family: "papienfont";
 }
+
+
+  /* On hover hide the borders */
+  .Link:hover .borderb,
+  .Link:hover .borderb {
+    transform: scaleX(0);
+  }
+  
+  /* Animate top border */
+  .Link:hover .borderb:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    animation: animateTopBorder 0.3s forwards;
+  }
+  
+  /* Animate bottom border */
+  .Link:hover .borderb:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    animation: animateBottomBorder 0.3s forwards;
+  }
+  
+  /* Animation keyframes */
+  @keyframes animateTopBorder {
+    0% {
+      width: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      width: 100%;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes animateBottomBorder {
+    0% {
+      width: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      width: 100%;
+      transform: translateX(0);
+    }
+  }
+  
