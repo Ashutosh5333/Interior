@@ -11,7 +11,7 @@ const Faq = () => {
   const randomFontFamilies = ["font-serif", "font-sans", "font-mono"];
 
   return (
-    <div className=" w-[100%] lg:w-[80%]  min-h-screen m-auto border-green-600">
+    <div className=" w-[100%] lg:w-[80%]  py-2 m-auto border-green-600">
     
      <div className="px-4  sm:text-start ">
      <h1 className="headitail text-[4em] sm:text-[7.6em]">
