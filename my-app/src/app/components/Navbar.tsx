@@ -6,6 +6,7 @@ import "../globals.css"
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
+
   return (
     <div className=" fixed bg-[#FFFFFF] z-50  w-full border-green-600 ">
       <nav
@@ -38,11 +39,7 @@ const Navbar = () => {
             <span className="heading">A</span>
             CT US
           </Link>
-          {/* <Link href="#" className="ml-4 borderb relative font-serif font-thin">
-            CONT
-            <span className="heading">A</span>
-            CT US
-          </Link> */}
+          
         </div>
 
         {/* Mobile view */}
@@ -68,7 +65,7 @@ const Navbar = () => {
         {/* Mobile menu */}
 
         {showMenu && (
-          <div className="md:hidden bg-[#FFFFFF] absolute top-16 right-0  p-4 w-[100%]">
+          <div className="md:hidden bg-[#FFFFFF] absolute top-16 right-0  p-2 w-[100%]">
             <Link href="#" className="block text-center mb-2">
               About
             </Link>
@@ -78,7 +75,7 @@ const Navbar = () => {
             <Link href="#" className="block text-center mb-2">
               Blog
             </Link>
-            <Link href="#" className="ml-4  font-serif font-thin">
+            <Link href="#" className="block border-t-2 border-b-2 border-black ml-4 text-center  font-serif font-thin">
               CONT
               <span className="heading">A</span>
               CT US
