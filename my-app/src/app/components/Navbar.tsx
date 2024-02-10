@@ -9,9 +9,10 @@ const Navbar = () => {
 
   return (
     <div className=" fixed bg-[#FFFFFF] z-50  w-full border-green-600 ">
+
       <nav
         className="w-[100%] sm:w-[90%] lg:w-[80%] m-auto 
-      p-4 px-8 flex justify-between items-center z-50"
+      p-4 sm:px-8 flex justify-between items-center z-50"
       >
         <Link href="#" className="text-4xl font-medium headitail font-sans">
           INTE
@@ -65,7 +66,8 @@ const Navbar = () => {
         {/* Mobile menu */}
 
         {showMenu && (
-          <div className="md:hidden bg-[#FFFFFF] absolute top-16 right-0  p-2 w-[100%]">
+          <div className=" border-black 
+          md:hidden bg-[#FFFFFF] absolute top-16 right-0 p-2  w-[100%] m-auto ">
             <Link href="#" className="block text-center mb-2">
               About
             </Link>
@@ -75,7 +77,8 @@ const Navbar = () => {
             <Link href="#" className="block text-center mb-2">
               Blog
             </Link>
-            <Link href="#" className="block border-t-2 border-b-2 border-black ml-4 text-center  font-serif font-thin">
+            <Link href="#" className="block border-t-2 border-b-2 border-black
+              text-center  font-serif font-thin">
               CONT
               <span className="heading">A</span>
               CT US
