@@ -3,9 +3,12 @@ import Link from 'next/link';
 import React from 'react';
 
 const Footer = () => {
+
+  
   return (
         
-    <footer className=' footer mt-[20%] sm:mt-[10%] w-[100%] px-8 rounded-t-[2rem] shadow-md m-auto'>
+    <footer className='footer  border-red-700 relative bottom-0 mt-[20%] 
+    sm:mt-[10%] w-[100%]  sm:px-8 rounded-t-[2rem] shadow-md m-auto'>
       
       <section className='w-[100%] px-4 py-2 sm:w-[80%] m-auto flex flex-col'>
         
@@ -29,7 +32,8 @@ const Footer = () => {
           <Link href="#" className="text-md sm:w-[40%] text-[#4e4e4e] sm:px-2 sm:py-2 font-medium font-sans">
             @ Copyright 2023
           </Link>
-          <div className='font-sans sm:w-[80%] text-sm text-[#4e4e4e] text-center flex justify-start sm:justify-end gap-2 items-center sm:py-4'>
+          <div className='font-sans sm:w-[80%] text-sm text-[#4e4e4e] text-center
+           flex justify-start sm:justify-end sm:gap-2 items-center sm:py-4'>
             <h1>Powered by <Link href={""} className='underline'>Webflow</Link> - Developed by
               <Link className='underline' href={""}>
                 WebYulia

@@ -4,7 +4,7 @@ import Homepage from "./components/Homepage";
 
 export default function Home() {
   return (
-    <main >
+    <main className="min-h-screen">
       
             <Homepage/>
          

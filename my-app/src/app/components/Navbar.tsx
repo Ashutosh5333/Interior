@@ -24,7 +24,7 @@ const Navbar = () => {
         {/* Desktop view */}
 
         <div className="hidden md:flex gap-5 font-sans md:items-center">
-          <Link href="#" className="ml-4 hover:border-t-2 hover:border-black">
+          <Link href="/about" className="ml-4 hover:border-t-2 hover:border-black">
             About
           </Link>
           <Link href="#" className="ml-4 hover:border-t-2 hover:border-black">
