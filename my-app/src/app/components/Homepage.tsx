@@ -4,6 +4,7 @@ import InventorySwiper from "./InventorySwiper";
 import Faq from "./Landingpage/Faq";
 import Latestblog from "./Landingpage/Latestblog";
 import Footer from "./Landingpage/Footer";
+import CustomSwiper from "../hooks/CustomSwiper";
 
 const Homepage = () => {
   
@@ -235,6 +236,8 @@ const Homepage = () => {
       <InventorySwiper />
 
        <Faq/>
+       
+       <CustomSwiper data={[]}/>
 
        <Latestblog/>
        

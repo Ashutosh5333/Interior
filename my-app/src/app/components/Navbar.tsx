@@ -14,7 +14,7 @@ const Navbar = () => {
         className="w-[100%] sm:w-[90%] lg:w-[80%] m-auto 
       p-4 sm:px-8 flex justify-between items-center z-50"
       >
-        <Link href="#" className="text-4xl font-medium headitail font-sans">
+        <Link href="/" className="text-4xl font-medium headitail font-sans">
           INTE
           <span className="heading">R</span>
           <span>IORR</span>
@@ -27,7 +27,7 @@ const Navbar = () => {
           <Link href="/about" className="ml-4 hover:border-t-2 hover:border-black">
             About
           </Link>
-          <Link href="#" className="ml-4 hover:border-t-2 hover:border-black">
+          <Link href="/project" className="ml-4 hover:border-t-2 hover:border-black">
             Projects
           </Link>
           <Link href="#" className="ml-4 hover:border-t-2 hover:border-black">
@@ -68,10 +68,10 @@ const Navbar = () => {
         {showMenu && (
           <div className=" border-black 
           md:hidden bg-[#FFFFFF] absolute top-16 right-0 p-2  w-[100%] m-auto ">
-            <Link href="#" className="block text-center mb-2">
+            <Link href="/about" className="block text-center mb-2">
               About
             </Link>
-            <Link href="#" className="block text-center mb-2">
+            <Link href="/project" className="block text-center mb-2">
               Projects
             </Link>
             <Link href="#" className="block text-center mb-2">

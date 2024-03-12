@@ -9,14 +9,14 @@ const page = () => {
   return (
     <div className='min-h-screen relative top-20 w-full m-auto  mx-auto  border-black'>
       
-        <div className='w-[100%]  border-red-600 sm:w-[80%] m-auto'>
+        <div className='w-[100%] px-4 border-red-600 sm:w-[80%] m-auto'>
              <h1 className="text-[4em] text-end sm:text-[7em] lg:text-[9.86em] z-10 headitail"> 
              A<span  className="heading">B</span>OUT US </h1>
         </div>
 
       <section
-        className="Creative-container mt-[-2rem] py-2 w-[100%] px-2 lg:w-[80%] 
-      m-auto  flex flex-col sm:flex-row   border-yellow-800"
+        className="Creative-container mt-[-2rem] py-2 w-[100%] px-4 sm:px-2 lg:w-[80%] 
+      m-auto  flex flex-col sm:flex-row    border-yellow-800"
       >
         <div className="w-[100%] py-2 sm:py-6  sm:mt-0 sm:w-[80%] 
         lg:w-[60%]  m-auto  border-black">
@@ -44,7 +44,7 @@ const page = () => {
         </div>
       </section>
 
-      <section   className="Creative-container mt-[-4rem] py-8 w-[100%] px-2 lg:w-[80%] 
+      <section   className="Creative-container mt-[-4rem] py-8 w-[100%] px-4 sm:px-2 lg:w-[80%] 
       m-auto     border-yellow-800"
       >
         <div className='flex text-sm px-2 sm:px-0 sm:text-lg font-serif justify-between py-4'>
@@ -58,19 +58,18 @@ const page = () => {
           <h2 className='headitail font-bold text-lg sm:text-8xl'>600 + </h2>
           <h2 className='headitail font-bold text-lg sm:text-8xl'> 40</h2>
         </div>
+    
+    </section>
 
-
-      </section>
-
-      <div className='w-[100%]  border-red-600 sm:w-[80%] m-auto'>
+       <div className='w-[100%] px-4 border-red-600 sm:w-[80%] m-auto'>
              <h1 className="text-[4em]  sm:text-[7em] lg:text-[9.86em] z-10 headitail"> 
              OU<span  className="heading">R</span> HAPPY</h1>
-             <h1 className="text-[4em] mt-[-7rem] sm:text-[7em] lg:text-[9.86em] z-10 headitail"> 
+             <h1 className="text-[4em] mt-[-2rem] sm:mt-[-6rem] md:mt-[-7rem] sm:text-[7em] lg:text-[9.86em] z-10 headitail"> 
              CLIENTS</h1>
         </div>
 
 
-        <section className="Discription w-[100%] py-8 sm:px-4 lg:px-2 lg:w-[80%] m-auto  flex flex-col sm:flex-row gap-5">
+        <section className="Discription w-[100%] py-8 px-4 sm:px-4 lg:px-2 lg:w-[80%] m-auto  flex flex-col sm:flex-row gap-5">
         <div
           data-aos="fade-up"
           data-aos-duration="3000"
@@ -133,7 +132,7 @@ const page = () => {
       </section>
 
       
-      <section className="Discription w-[100%] py-8 sm:px-4 lg:px-2 lg:w-[80%] m-auto  flex flex-col sm:flex-row gap-5">
+      <section className="Discription w-[100%] py-8 px-4 sm:px-4 lg:px-2 lg:w-[80%] m-auto  flex flex-col sm:flex-row gap-5">
         <div
           data-aos="fade-up"
           data-aos-duration="3000"
