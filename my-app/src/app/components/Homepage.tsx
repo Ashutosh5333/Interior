@@ -237,7 +237,7 @@ const Homepage = () => {
 
        <Faq/>
        
-       <CustomSwiper data={[]}/>
+       {/* <CustomSwiper data={[]}/> */}
 
        <Latestblog/>
        
