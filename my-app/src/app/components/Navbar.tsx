@@ -30,10 +30,10 @@ const Navbar = () => {
           <Link href="/project" className="ml-4 hover:border-t-2 hover:border-black">
             Projects
           </Link>
-          <Link href="#" className="ml-4 hover:border-t-2 hover:border-black">
+          {/* <Link href="#" className="ml-4 hover:border-t-2 hover:border-black">
             Blog
-          </Link>
-          <Link href="#" className="ml-4 hover:border-t-2
+          </Link> */}
+          <Link href="/contact" className="ml-4 hover:border-t-2
           hover:border-b-2
           hover:border-black font-serif font-thin">
             CONT
@@ -74,10 +74,10 @@ const Navbar = () => {
             <Link href="/project" className="block text-center mb-2">
               Projects
             </Link>
-            <Link href="#" className="block text-center mb-2">
+            {/* <Link href="#" className="block text-center mb-2">
               Blog
-            </Link>
-            <Link href="#" className="block border-t-2 border-b-2 border-black
+            </Link> */}
+            <Link href="/contact" className="block border-t-2 border-b-2 border-black
               text-center  font-serif font-thin">
               CONT
               <span className="heading">A</span>
