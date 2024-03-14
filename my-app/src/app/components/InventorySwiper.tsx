@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { Interier } from "../../../context/index";
 import { MoveLeft, MoveRight } from "lucide-react";
+import Image from "next/image";
 
 const InventorySwiper = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -31,10 +32,12 @@ const InventorySwiper = () => {
        
           <div className="w-full sm:w-[70%] lg:w-[60%] m-auto py-2 px-4 bg-cover border-red-600">
             <div className="aspect-w-4 aspect-h-3">
-              <img
+              <Image
                 src={el.Image}
                 className="object-cover h-[300px] sm:h-[300px] lg:h-[400px] w-[100%] rounded-[2rem]"
                 alt={`image_${el.id}`}
+                width={500}
+                height={100}
               />
             </div>
           </div>

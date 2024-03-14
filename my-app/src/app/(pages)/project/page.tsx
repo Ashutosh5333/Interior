@@ -18,9 +18,9 @@ const page = () => {
                m-auto  grid grid-flow-col-1 cursor-pointer   border-yellow-800"
         >
           {Interier.length > 0 &&
-            Interier.map((el) => {
+            Interier.map((el,i) => {
               return (
-                <section className=" w-[100%]  border-yellow-500 m-auto py-6 gap-2">
+                <section key={i} className=" w-[100%]  border-yellow-500 m-auto py-6 gap-2">
                   <div
                     data-aos="fade-up"
                     className="  shadow-lg  hover:blur-[.1rem] px-4 py-4 rounded-large border-green-600 relative"
